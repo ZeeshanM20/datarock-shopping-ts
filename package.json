@@ -1,0 +1,23 @@
+{
+  "name": "datarock-shopping",
+  "version": "1.0.0",
+  "description": "A shopping cart application with advanced pricing rules and discount logic",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "dev": "ts-node src/index.ts", 
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Zeeshan Mujtaba",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
