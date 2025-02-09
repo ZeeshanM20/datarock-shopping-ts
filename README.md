@@ -2,16 +2,16 @@
 
 ## Overview
 
-This repository contains a TypeScript implementation of a flexible and extensible checkout system for Datarocks new computer store. The system is designed to handle dynamic pricing rules and promotions for various products, ensuring it can easily adapt to changing requirements in the future. The checkout system adheres to best practices in software development, ensuring high-quality code that is easy to maintain, extend, and test.
+This repository contains a TypeScript implementation of a flexible and extensible checkout system for Datarocks' new computer store. It supports dynamic pricing rules and promotions for various products, making it adaptable to future changes. The system follows best practices in software development, ensuring high-quality, maintainable, testable, and scalable code.
 
 - **Code Quality**: Clear structure with separation of concerns.
-- **Maintainability**: Uses classes for pricing rules to allow easy expansion.
-- **Testability**: Includes unit tests for core functionalities.
+- **Maintainability**: Classes for pricing rules allow easy expansion.
+- **Testability**: Unit tests for core functionalities.
 - **Scalability**: Supports flexible pricing rule extensions.
 
 ## Features
 
-- **Pricing Rules Implemented**:
+- **Implemented Pricing Rules**:
   - Apple TV "3 for 2" discount.
   - Super iPad bulk discount.
   - MacBook Pro includes a free VGA adapter.
